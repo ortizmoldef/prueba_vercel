@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Etiquetas del formulario */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Contenedor de botones con espacio */
+  .botones {
+    display: flex;
+    gap: 10px; /* Espacio entre botones */
+    margin-top: 10px;
+    
+  }
+  
+/* Botones */
+    button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px; /* Tamaño más pequeño */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    transition: background 0.3s;
+    text-align: center;
+    width: auto; /* Asegura que los botones no se expandan */
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Botón de eliminar */
+  button.eliminar {
+    background: #dc3545;
+  }
+  
+  button.eliminar:hover {
+    background: #b52b3a;
+  }
+  
+  /* Lista de libros */
+  .lista-libros {
+    margin-top: 20px;
+  }
+  
+  .lista-libros h2 {
+    text-align: center;
+    color: #495057;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para cada libro */
+  .libro {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Contenedor de botones dentro de cada libro */
+  .libro .botones {
+    display: flex;
+    justify-content: space-between; /* Alinea los botones con espacio entre ellos */
+    gap: 10px; /* Ajusta el espacio entre los botones */
+  }
+  
+  /* Botón "Crear Nuevo Libro" */
+.boton-crear {
+    display: block;
+    width: fit-content;
+    margin: 20px auto; /* Lo centra horizontalmente */
+    padding: 12px 20px;
+    background: #28a745; /* Color verde */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    text-align: center;
+  }
+  
+  .boton-crear:hover {
+    background: #218838; /* Verde más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de crecimiento ligero */
+  }
+  
